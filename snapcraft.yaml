@@ -94,7 +94,7 @@ parts:
   libffi:
     after: [ libtool, meson-deps ]
     source: https://gitlab.freedesktop.org/gstreamer/meson-ports/libffi.git
-    source-tag: 'meson-3.2.9999.4'
+    source-commit: '339f603ab6b90df65de5d517ae2f692c35a9cd99'
 # ext:updatesnap
 #   version-format:
 #     format: 'meson-%M.%m.%R'
