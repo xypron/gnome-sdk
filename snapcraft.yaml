@@ -327,6 +327,10 @@ parts:
       - --enable-introspection
       - --enable-vala
     build-environment: *buildenv
+    override-pull: |
+      set -eux
+      snapcraftctl pull
+      patch -p1 < $SNAPCRAFT_PROJECT_DIR/patches/librsvg-Bump-bitflags-version-to-1.3.2.patch
     build-packages:
       - cargo
       - libcroco3-dev

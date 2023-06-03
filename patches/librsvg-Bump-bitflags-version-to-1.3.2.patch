@@ -1,0 +1,29 @@
+From c8a70c2e90a34f95c571269c8d34801d27582e12 Mon Sep 17 00:00:00 2001
+From: Heinrich Schuchardt <heinrich.schuchardt@canonical.com>
+Date: Sat, 3 Jun 2023 09:57:56 +0200
+Subject: [PATCH 1/1] Bump bitflags version to 1.3.2
+
+Signed-off-by: Heinrich Schuchardt <heinrich.schuchardt@canonical.com>
+---
+ Cargo.lock | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Cargo.lock b/Cargo.lock
+index 0b7a7544..db6c1f29 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -69,9 +69,9 @@ checksum = "a4521f3e3d031370679b3b140beb36dfe4801b09ac77e30c61941f97df3ef28b"
+ 
+ [[package]]
+ name = "bitflags"
+-version = "1.2.1"
++version = "1.3.2"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
++checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
+ 
+ [[package]]
+ name = "block"
+-- 
+2.39.2
+
